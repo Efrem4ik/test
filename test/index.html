@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Главная</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="overlay"></div>
+
+  <header class="header">
+    <div class="parallax"></div>
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo header__item">
+          <a href="/"><img src="images/logo.png" alt="Logotype"></a>
+          <span>Студия депиляции <br> и массажный <br> кабинет в Бресте</span>
+        </div>
+        <div class="header__map header__item">
+          <div class="header__map-image">
+            <img src="images/mini-map.png" alt="mini-map">
+          </div>
+          <div class="header__map-content">
+            <span class='header__map-address'>Мы находимся в центре:</span>
+            <span class="header__map-item">г. Брест, ул. Гоголя, д.65</span>
+            <div class="onmap">
+              <a class="onmap__link" href="#">Смотреть на карте</a>
+              <iframe class="onmap__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d515.311004039794!2d23.698110649432568!3d52.09345346613645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bfa0846eda1%3A0x9d8826f6a26a2b91!2z0YPQuy4g0JPQvtCz0L7Qu9GPIDY1LCDQkdGA0LXRgdGCLCDQkdC10LvQsNGA0YPRgdGM!5e0!3m2!1sru!2sru!4v1594490417006!5m2!1sru!2sru"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="header__contacts header__item">
+          <span class="header__contacts-online">Звоните, мы сейчас работаем</span>
+          <a href="tel:+375333822499">+375 33 382 24 99</a>
+          <span class="header__contacts-time"> Пн-Вс
+            <span>
+              9:00-21:00
+            </span>
+          </span>
+        </div>
+        <button class="header__btn header__item">
+          <img class="header__btn-date" src="images/icons/date.png" alt="Date">Записаться онлайн</button>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item"><a href="#" class="active">Главная</a></li>
+          <li class="header__list-item"><a href="#">Шугаринг и депиляция воском</a></li>
+          <li class="header__list-item"><a href="#">Антицеллюлитный массаж</a></li>
+          <li class="header__list-item"><a href="#">Классический массаж</a></li>
+          <li class="header__list-item"><a href="#">Обучение</a></li>
+          <li class="header__list-item"><a href="#">Косметика для мастеров</a></li>
+          <li class="header__list-item"><a href="#">Статьи</a></li>
+          <li class="header__list-item"><a href="#">О студии</a></li>
+          <li class="header__list-item"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="close"></div>
+      </nav>
+      <div class="burger__wrapper">
+        <button class="burger">
+          <span></span>
+        </button>
+      </div>
+      <div class="main">
+        <h1 class='main__title'>
+          Хотите избавиться от
+          <span>нежелательных волос</span>
+          или нужен сеанс
+          <span>антицеллюлитного массажа?</span>
+        </h1>
+        <div class="main__wrapper">
+          <div class="main__content">
+            <ul class="main__list">
+              <li class="main__list-item">депиляция воском и Шугаринг;</li>
+              <li class="main__list-item">профессиональные сертифицированные мастера;</li>
+              <li class="main__list-item">работаем и с женщинами, и с мужчинами;</li>
+              <li class="main__list-item">результат уже после первой процедуры.</li>
+            </ul>
+            <button class='main__btn'>Получить карту <br> клиента бесплатно
+              <img class="main__btn-branch" src="images/branch.png" alt="branch"></button>
+          </div>
+          <div class="main__promo">
+            <div class="main__promo-wrapper">
+              <img src="images/cart.png" alt="Promo" class="promo-cart">
+              <img src="images/promo.png" alt="Promo" class="promo-item">
+            </div>
+            <p class="promo-help">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut</p>
+          </div>
+        </div>
+        <div class='main__btn-wrapper'>
+          <button class="main__down-btn">
+            <span class="main__down-btn--first"></span>
+            <span class="main__down-btn--second"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="test"></section>
+  <div class="modal">
+    <img class="modal__book" src="images/book.png" alt="Book">
+    <div class="close__modal"></div>
+    <h2 class='modal__title'>
+      <span>Получите</span>
+      программу обучения
+    </h2>
+    <p class="modal__text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    </p>
+    <form class='modal__form'>
+      <select name="select" id="select">
+        <option value="" selected>Выбор классификации</option>
+        <option value="1">Машинное обучение</option>
+        <option value="2">Систематизация знания</option>
+        <option value="3">Концепты методологического дискурса</option>
+      </select>
+      <input type="text" placeholder="Ваше имя">
+      <input type="tel" placeholder="Ваш номер телефона">
+      <button class='modal__btn' type="submit">Получить программу
+        <img src="images/flowers.png" alt="Flowers" class="flowers">
+      </button>
+    </form>
+  </div>
+  <div class="modal__ok">
+    <div class="close__modal-ok"></div>
+    <img src="images/ok.png" alt="OK">
+    <span class="modal__ok-text">Ваш заказ принят.</span>
+    <span>Ожидайте звонка</span>
+  </div>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

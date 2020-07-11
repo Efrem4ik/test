@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  @include museo300;
+  font-weight: normal;
+  position: relative;
+  overflow-x: hidden;
+  color: #282828;
+}
+.container {
+  width: 85.938vw;
+  margin: 0 auto;
+}
